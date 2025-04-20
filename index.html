@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Páscoa Expressa Brasília</title>
+  <style>
+    body { font-family: sans-serif; background: #fff8f0; color: #333; margin: 0; padding: 20px; }
+    h1, h2 { text-align: center; }
+    .container { max-width: 800px; margin: 0 auto; }
+    .product { border: 1px solid #ddd; border-radius: 12px; padding: 20px; margin: 20px 0; background: #fff; }
+    .product img { max-width: 100%; height: auto; border-radius: 8px; }
+    .product-title { font-size: 1.2em; margin: 10px 0; }
+    .price { color: #e76f51; font-size: 1.1em; font-weight: bold; }
+    .pix-instructions { background: #fef6e4; border: 1px dashed #e76f51; padding: 10px; border-radius: 8px; margin-top: 10px; font-size: 0.95em; }
+    .button { display: inline-block; padding: 10px 20px; background: #2a9d8f; color: white; border-radius: 6px; text-decoration: none; margin-top: 10px; }
+    form { display: flex; flex-direction: column; gap: 10px; margin-top: 30px; }
+    input { padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+    .footer { text-align: center; font-size: 0.9em; margin-top: 40px; color: #555; }
+    .alerta { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 8px; margin: 30px 0; font-size: 0.95em; color: #856404; }
+    .whatsapp-link { text-align: center; margin-top: 20px; }
+    .whatsapp-link a { text-decoration: none; display: inline-flex; align-items: center; gap: 10px; background: #25D366; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; }
+    .whatsapp-link img { width: 24px; height: 24px; }
+    .product-title::before { content: "🐰 "; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🐰 Páscoa Expressa Brasília 🐰</h1>
+    <h2>Escolha seu ovo favorito e receba em até 30 minutos!</h2>
+    <p style="text-align: center; font-weight: bold; color: #d62828; font-size: 1.1em;">
+      🔥 Queima de Estoque! Estoque Limitado!
+    </p>
+
+    <div class="product">
+      <img src="https://i.imgur.com/kGlgoIc.jpg" alt="Ovo Lacta Oreo 320g">
+      <div class="product-title">Ovo Lacta Oreo (320g)</div>
+      <div class="price">R$ 45,75</div>
+      <div class="pix-instructions">
+        Pix: <strong>lccimportadosltda@gmail.com</strong><br>
+        Valor: <strong>R$ 45,75</strong><br>
+        Descrição: <strong>"Oreo - Seu Nome"</strong>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://i.imgur.com/RRoIDGx.jpg" alt="Ovo Garoto Talento 350g">
+      <div class="product-title">Ovo Garoto Talento ao Leite (350g)</div>
+      <div class="price">R$ 69,90</div>
+      <div class="pix-instructions">
+        Pix: <strong>lccimportadosltda@gmail.com</strong><br>
+        Valor: <strong>R$ 69,90</strong><br>
+        Descrição: <strong>"Talento - Seu Nome"</strong>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://i.imgur.com/MP4Wgx9.jpg" alt="Ovo Ferrero Rocher">
+      <div class="product-title">Ovo Ferrero Rocher</div>
+      <div class="price">R$ 55,90</div>
+      <div class="pix-instructions">
+        Pix: <strong>lccimportadosltda@gmail.com</strong><br>
+        Valor: <strong>R$ 55,90</strong><br>
+        Descrição: <strong>"Ferrero - Seu Nome"</strong>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://i.imgur.com/MkwnJVG.jpg" alt="Ovo Cacau Show Dreams">
+      <div class="product-title">Ovo Cacau Show Dreams</div>
+      <div class="price">R$ 69,90</div>
+      <div class="pix-instructions">
+        Pix: <strong>lccimportadosltda@gmail.com</strong><br>
+        Valor: <strong>R$ 69,90</strong><br>
+        Descrição: <strong>"Dreams - Seu Nome"</strong>
+      </div>
+    </div>
+
+    <div class="alerta">
+      <strong>⚠️ Pagamento via Pix:</strong> O pedido será processado após confirmação manual no WhatsApp.<br>
+      Envie o comprovante e endereço após pagamento.
+    </div>
+
+    <div class="whatsapp-link">
+      <a href="https://wa.me/5561991860700" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Confirmar pedido no WhatsApp
+      </a>
+    </div>
+
+    <form>
+      <h3>Informações para Entrega:</h3>
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="tel" name="whatsapp" placeholder="WhatsApp para contato" required>
+      <input type="text" name="endereco" placeholder="Endereço completo para entrega" required>
+      <button class="button" type="submit">Confirmar Pedido</button>
+    </form>
+
+    <div class="footer">
+      Entregas entre 30 minutos após confirmação até as 19h de hoje (domingo de Páscoa).<br>
+      Entregas para Brasília e Entorno.
+    </div>
+  </div>
+</body>
+</html>
